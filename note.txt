@@ -1,0 +1,25 @@
+this is a note about learning github:
+
+How to create a repository:
+  git init
+  (current directory)
+
+How to add a gile:
+  git add readme.txt
+  git commit -m"wrote a readme file"
+  (you can commit many files at one time)
+
+To check the status:
+  git status
+
+To check what has been modified:
+  git diff
+
+To reset:
+  git reset --hard (commit_id)
+  (arguments:HEAD^ HEAD~100)
+
+To view all changes:
+  git log
+  git log --pretty=oneline
+  git reflog(to see which version to reset)
