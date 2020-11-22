@@ -31,3 +31,11 @@ To return:
 To push:
   git push origin main
   (to push the latest modification)
+
+To edit branch:
+  git branch
+  git branch <name>(to create a new branch)
+  git checkout or git switch(to switch to a new branch)
+  git checkout -b <name> or git switch -c <name>
+  git merge <name>
+  git branch -d <name>
