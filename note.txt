@@ -23,3 +23,7 @@ To view all changes:
   git log
   git log --pretty=oneline
   git reflog(to see which version to reset)
+
+To return:
+  git restore
+  git reset HEAD <file>
