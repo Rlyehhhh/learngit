@@ -27,3 +27,7 @@ To view all changes:
 To return:
   git restore
   git reset HEAD <file>
+
+To push:
+  git push origin main
+  (to push the latest modification)
